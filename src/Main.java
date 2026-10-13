@@ -7,6 +7,16 @@ public class Main {
         int y= 8;
         System.out.println("Resultado de la resta: " + (x- y));
 
-    }
+    
+import java.util.Scanner;
 
-}
+
+
+           
+            Scanner sc =new Scanner(System.in);
+            int x= sc.nextInt();
+            int y=sc.nextInt();
+            System.out.println(x+y);
+            sc.close();
+        }
+    }
